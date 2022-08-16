@@ -87,7 +87,7 @@ def train(net,device,epoches,lr,train_loader,val_loader,dir_output):
         VAL_ALL_MIOU.append(sum(VAL_MIOU) / len(VAL_MIOU))
         VAL_ALL_BIOU.append(sum(VAL_BIOU) / len(VAL_BIOU))
         #torch.cuda.empty_cache()
-        torch.save(net.state_dict(), os.path.join(dir_output,'checkpoint_epoch{}.pth'.format(epoch)))
+        torch.save(net.state_dict(), os.path.join(dir_output,'epoch{}.pth'.format(epoch)))
     
     return TRAIN_ALL_MIOU,TRAIN_ALL_BIOU,TRAIN_ALL_LOSS,VAL_ALL_MIOU,VAL_ALL_BIOU
 
