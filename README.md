@@ -1,5 +1,6 @@
 # Unet_Weizmann-Horse
 Unet training with Weizmann Horse database
+
 This work is the assignment of visual cognitive engineering. This work mainly uses UNET to complete the semantic segmentation task, and uses the pytorch framework.
 
 # Installation
@@ -11,7 +12,9 @@ This code runs under python3.8 and pytorch1.11.0. The total configuration is as 
 
 # download model
 The download link of the pre_trained optimal model is:
+
 https://pan.baidu.com/s/1nW_c2rcnxOTs3G3pfcXznw?pwd=abcd
+
 Extraction code: abcd
 
 # Quick Start
